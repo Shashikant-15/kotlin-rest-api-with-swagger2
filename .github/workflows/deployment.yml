@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  IMAGE_NAME: ghcr.io/Shashikant-15/myapp/myimage:latest
+  IMAGE_NAME: ghcr.io/shashikant-15/myapp/myimage:latest
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
   GKE_CLUSTER: deployment-cluster-sdk
   GKE_ZONE: asia-southeast1-a
